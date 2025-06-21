@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+  <style>
+    form {
+      background-color: lightgreen;
+      padding: 50px;
+      width: 550px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+<center>
+  <h1>Student Registration Form</h1>
+  <form action="" method="POST">
+    <table cellspacing="5" cellpadding="5">
+      <tr>
+        <td><label>First Name</label></td>
+        <td><input type="text" name="firstname" placeholder="Enter the firstname"></td>
+      </tr>
+      <tr>
+        <td><label>Last Name</label></td>
+        <td><input type="text" name="lastname" placeholder="Enter the lastname"></td>
+      </tr>
+      <tr>
+        <td><label>Father's Name</label></td>
+        <td><input type="text" name="father" placeholder="Enter the father's name"></td>
+      </tr>
+      <tr>
+        <td><label>Mother's Name</label></td>
+        <td><input type="text" name="mother" placeholder="Enter the mother's name"></td>
+      </tr>
+      <tr>
+        <td><label>Date of Birth</label></td>
+        <td><input type="date" name="dob"></td>
+      </tr>
+      <tr>
+        <td><label>Email</label></td>
+        <td><input type="email" name="email" placeholder="Enter the email"></td>
+      </tr>
+      <tr>
+        <td><label>Gender</label></td>
+        <td>
+          <input type="radio" name="gender" value="Male" required>Male
+          <input type="radio" name="gender" value="Female" checked>Female
+        </td>
+      </tr>
+      <tr>
+        <td><label>Choose Course</label></td>
+        <td>
+          <select name="course">
+            <option>HTML</option>
+            <option>OOP</option>
+            <option>JAVA</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label>Hobbies</label></td>
+        <td>
+          <input type="checkbox" name="hobbies" value="Singing">Singing
+          <input type="checkbox" name="hobbies" value="Dancing">Dancing
+          <input type="checkbox" name="hobbies" value="Reading">Reading books
+          <input type="checkbox" name="hobbies" value="Cards">Playing cards
+        </td>
+      </tr>
+      <tr>
+        <td><label>Address</label></td>
+        <td><textarea name="address" rows="3" cols="25"></textarea></td>
+      </tr>
+      <tr>
+        <td><label>Photo</label></td>
+        <td><input type="file" name="file"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+      </tr>
+    </table>
+  </form>
+</center>
+</body>
+</html>
