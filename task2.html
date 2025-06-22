@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Profile</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      text-align: center;
+       width: 700px;
+    }
+
+    .form-container {
+      background: linear-gradient(to right, #cc2366, #bc1888);
+      color: white;
+      padding: 40px;
+      width: 500px;
+      margin: 30px auto;
+      border-radius: 12px;
+      text-align: left;
+    }
+.ttable{
+th {
+  background-color: #cc2366;  /* Mid-point of your gradient */
+  color: #ffffff;
+}
+
+
+  background-color: #ffffff;     /* White table */
+color: #333333;                /* Dark text */
+border: 1px solid #ddd;        /* Light border */
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+
+
+    label {
+      font-weight: bold;
+    }
+
+    table {
+      margin: 20px auto;
+    }
+
+    th, td {
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CUSTOMER PROFILE</h1>
+  <h2>INTRODUCTION</h2>
+  <p>
+    The Customer Profile page is designed to collect and display essential information about individual customers in an organized and user-friendly manner.
+    Its primary purpose is to help businesses better understand their customers by gathering personal details such as name, contact information, preferences, and purchase history.
+    This information can be used to personalize services, improve customer support, and build stronger relationships through targeted marketing and communication.
+  </p>
+
+  <img src="image.png" width="150" height="150"/>
+
+  <div class="form-container">
+    <form>
+       <table>
+    <form>
+  <table>
+    <tr>
+      <td><label>Customer Preferences</label></td>
+      <td>
+        <select>
+          <option>Interested in eco-friendly products</option>
+          <option>Prefers online shopping over in-store</option>
+          <option>Likes receiving email newsletters</option>
+          <option>Enjoys tech gadgets and accessories</option>
+          <option>Follows seasonal discount offers</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label>Full Name:</label></td>
+      <td>
+        <input type="text" name="fullname" placeholder="Enter Full Name">
+      </td>
+    </tr>
+  
+
+<tr>
+      <td><label>Email:</label></td>
+      <td><input type="email" name="email" placeholder="Enter Email"></td>
+      </tr>
+
+      <tr>
+        <td><label>Gender:</label></td>
+        <td>
+      <input type="radio" name="gender" value="Male"> <label>Male</label>
+      <input type="radio" name="gender" value="Female"> <label>Female</label>
+</td>
+</tr>
+
+<tr>
+      <td><label>Date of Birth:</label></td>
+      <td>
+      <input type="date" name="dob"><br>
+</td>
+</tr>
+
+<tr>
+      <td><label>Address:</label></td>
+      <td><textarea rows="3" name="address"></textarea></td>
+</tr>
+
+<tr>
+      <td><label>Upload Photo:</label></td>
+     <td><input type="file" name="photo"></td>
+</tr>
+
+<tr>
+     <td><input type="submit" value="Submit"></td>
+      </tr>
+  
+      </table>
+    </form>
+  </div>
+
+  <table class="ttable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Shelley</td>
+        <td>shelley@gmail.com</td>
+        <td>Female</td>
+        <td>Kigali</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
