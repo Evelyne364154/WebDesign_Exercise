@@ -60,6 +60,4 @@ input[type="reset"]:hover {
   background-color: #f5f5f5;
   cursor: pointer;
 }
-tr:last-child td {
-  text-align: center;
-}
+
